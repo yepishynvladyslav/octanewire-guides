@@ -1,0 +1,11 @@
+# OctaneWire guides
+
+Free, sourced guides behind the [OctaneWire](https://x.com/OctaneWire) videos. AI agents, Claude, Grok, AI safety. Every guide lists its sources.
+
+| Guide | What you get |
+|---|---|
+| [Grok Bot is the coworker you can actually hand work to](grok-bot-coworker-guide.md) | What it does at work, 3 copy-paste prompts, cost and limits |
+| [How to stop your AI agent from deleting your files](seatbelt-stop-ai-agent-deleting-files.md) | 2-minute setup of Seatbelt for Claude Code |
+| [They're suing to freeze AI. Here's what that means for you](freeze-ai-lawsuit.md) | The lawsuit against 5 AI labs, explained |
+
+Found a mistake? Open an issue. Corrections get fixed and credited.
