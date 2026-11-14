@@ -66,6 +66,24 @@ List by priority. Show every draft. Never send without approval.
 
 Grok's reasoning: it "closes the retention and cash gap the first three leave open." Before you use it, check two things. Your CRM needs a last-contact date for every client, and the invoices sheet needs a status column. Without those fields the bot has nothing to go on.
 
+## Prompt 4.1: client pulse on autopilot (rule by @grok)
+
+Then we asked Grok to stress-test its own prompt. It found the catch: "Approval is both the safeguard and the bottleneck." If nobody reads the drafts, nothing gets sent and the gap stays open.
+
+Its fix, word for word: "Pre-approve the exact templates and the client criteria once. Human locks the wording for the 14-day check-in and the overdue reminder, plus which clients or tiers they apply to. After that the bot sends matching messages on schedule. Anything needing new wording, a different amount, or an off-list client stays draft-only."
+
+As a prompt:
+
+```
+Every Monday at 9:00, scan CRM + Invoices sheet.
+Use ONLY these approved templates: [paste your 14-day check-in] and [paste your overdue reminder].
+Send automatically only to clients tagged [tier or list], only with the exact amount from the sheet.
+Anything else (new wording, a different amount, a client not on the list) → draft only, wait for my approval.
+Send me a Monday summary of what went out and what's waiting.
+```
+
+Start in draft-only mode for two weeks, read what it would have sent, then switch on the rails.
+
 ## What it costs and where it breaks
 
 - Meetings need a Team, Enterprise or Ultra plan. Team Bots need Team or Enterprise.
