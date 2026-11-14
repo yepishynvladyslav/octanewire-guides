@@ -39,6 +39,15 @@ Save it: *"Save this as a routine called AI Newsroom, every weekday at 7:00, my 
 2. Open the source link for anything you'll post about and check the number yourself.
 3. Write the post in your own words.
 
+## Tested on Grok Bot (November 14, 2026)
+
+We ran it once by hand (one run, last 48 hours, no routine saved) on a Grok Premium plan, then checked every item against its source.
+
+- **4 stories found, 5 facts checked, 5 true.** Gemini 4 Hydrogen pricing, ChatGPT Wallet partners, Gemini in Search, NVIDIA and Cleveland Clinic's 7,800-patient study, and the NVIDIA CEO filing all matched the source pages.
+- **No filler.** Only four stories fell inside the window, so it returned four instead of padding the list to five with older news.
+- **Honest about gaps.** Reuters blocked it, and it said so instead of guessing.
+- **One slip.** It said a Google quote came from Google's blog. A Google executive actually posted it on X. That's why you still check before you post.
+
 ## Safety checklist
 
 - [ ] No apps connected. This bot doesn't need your email, drive or socials.

@@ -12,6 +12,8 @@ Most AI guides stop at "here's a prompt". These come with everything you need to
 | [B · AI Newsroom](kits/ai-newsroom/README.md) | A sourced brief of the day's AI news before you wake up, with post ideas | 5 min | Any plan with Grok Bot |
 | [C · Meeting Stand-in](kits/meeting-standin/README.md) | Joins your call, takes notes, posts decisions and action items | 5 min | Team, Enterprise or Ultra |
 
+**Tested for real (Nov 14, 2026):** Kit A got 9 of 9 rows right and wrote 3 exact drafts without sending anything. Kit B returned 4 real stories, and we found 5 of 5 facts true on the source pages. Details are in each kit.
+
 **Download:** [client-pulse-template.xlsx](kits/client-pulse/client-pulse-template.xlsx). It opens in Google Sheets, Excel or Numbers.
 
 ## The rule behind all three: read → draft → act
