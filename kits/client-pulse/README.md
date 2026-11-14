@@ -39,7 +39,7 @@ The demo dates are set around November 14, 2026, and the sheet compares them wit
 
 ```
 Every Monday at 9:00, scan my Google Sheet "Client Pulse" (Clients + Invoices tabs).
-- Flag "No contact 14+ days" or "Renewal this week" → draft a short check-in in my voice using the matching template from the Templates tab.
+- Flag "No contact 14+ days" or "Renewal this week" → draft a short check-in using the matching template (subject + text) from the Templates tab. Use the First name column after "Hi".
 - Days overdue above 0 → draft a polite reminder using OVERDUE_REMINDER, with the exact amount, currency and pay link from the sheet.
 List by priority. Show every draft. Never send without approval.
 Add one row per draft to the Log tab.
@@ -61,6 +61,15 @@ Anything else (new wording, a different amount, a client with Autopilot OK? = No
 Never send more than 10 emails per run. Log every action in the Log tab: date, client, template, sent or draft.
 Send me a summary in this chat: what went out, what's waiting.
 ```
+
+## Tested on Grok Bot (November 14, 2026)
+
+We ran steps 1 and 2 on the demo data with a Grok Premium plan.
+
+- **Dry run: 9 of 9 rows correct.** Four overdue invoices ($3,980), three renewals, two quiet clients, and the paid invoice left out. Nothing was changed. On its own, the bot also flagged clients that showed up twice and the ones set to Autopilot OK? = No.
+- **Drafts: 3 of 3 exact.** The template was kept word for word, and the amounts, due dates and pay links came straight from the sheet. Nothing was sent or saved to Gmail.
+- **One gotcha:** the bot can't read an uploaded .xlsx through Google Drive. Open it and use *File → Save as Google Sheets* first.
+- **What the test found, now fixed in v1.1:** the templates had no subject line, and there was no first-name column, so the bot had to guess the name from the full name. The sheet now has a **First name** column and a **Subject** for every template.
 
 ## Safety checklist
 
