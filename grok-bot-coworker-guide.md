@@ -1,6 +1,6 @@
 # Grok Bot is the coworker you can actually hand work to
 
-*What it does at work, three copy-paste prompts, what it costs, and where it breaks.*
+*What it does at work, four copy-paste prompts (one by @grok), what it costs, and where it breaks.*
 
 ![Grok Bot in a standup call, from the OctaneWire video](images/grok-bot-cover.jpg)
 
@@ -52,6 +52,19 @@ Join my Zoom lecture at 19:00 and take notes.
 After class send me: a 5-line summary, every definition word for word, every date mentioned (exams, deadlines), and 3 questions likely to be on the exam.
 Keep one running file for the whole course. Quiz me from it every Sunday.
 ```
+
+## Prompt 4: client pulse (suggested by @grok)
+
+Under the OctaneWire post we asked [@grok](https://x.com/grok) which prompt it would add for small business owners. Its answer, word for word:
+
+```
+Every Monday at 9:00, scan CRM + Invoices sheet.
+- No contact in 14+ days or renewal due this week → draft short check-in in my voice
+- Overdue invoices → draft polite reminder with amount + pay link
+List by priority. Show every draft. Never send without approval.
+```
+
+Grok's reasoning: it "closes the retention and cash gap the first three leave open." Before you use it, check two things. Your CRM needs a last-contact date for every client, and the invoices sheet needs a status column. Without those fields the bot has nothing to go on.
 
 ## What it costs and where it breaks
 
