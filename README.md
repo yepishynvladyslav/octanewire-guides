@@ -4,6 +4,7 @@ Free, sourced guides behind the [OctaneWire](https://x.com/OctaneWire) videos. A
 
 | Guide | What you get |
 |---|---|
+| [The 3 rules to paste into any AI agent](the-3-rules.md) | Copy-paste safety rules for Claude, Grok, ChatGPT agents |
 | [The zero-person video studio](the-zero-person-video-studio.md) | The free stack behind 35+ videos + a free music generator |
 | [ChatGPT Wallet: your AI agent can pay now](chatgpt-wallet-explained.md) | How agent payments work, who gets it, checklist before an agent spends your money |
 | [3 Grok Bot kits you can run this week](grok-bot-kits.md) | Client Pulse spreadsheet, AI Newsroom, Meeting Stand-in: prompts, test plans, safety checklists |
