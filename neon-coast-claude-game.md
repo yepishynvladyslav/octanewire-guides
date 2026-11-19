@@ -2,7 +2,7 @@
 
 *Grand Theft Auto VI launched on November 19, 2026. While everyone waits for the download, here's a free, fan-made neon driving game that Claude wrote. You can play it on your phone in 2 seconds.*
 
-**▶ Play NEON COAST:** https://raw.githack.com/yepishynvladyslav/octanewire-guides/main/games/neon-coast/index.html
+**▶ Play NEON COAST:** https://htmlpreview.github.io/?https://github.com/yepishynvladyslav/octanewire-guides/blob/main/games/neon-coast/index.html
 
 ## The facts about GTA 6 launch day
 
